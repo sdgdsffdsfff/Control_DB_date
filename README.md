@@ -76,5 +76,12 @@ Basic Example
                         dc[self.fit_date_format(year,month)] = ["%s-%s-01"%(year,month),"%s-%s-%s"%(year,month,getMonthDays(year,month))]
         
             return dc
+
+
+How to use it 
+-------------
+    from Control_DB_date import *
+    Match = Match_db_date()
+    Match.to_match('2014-05-11,'2014-09-11')
         
 
