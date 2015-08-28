@@ -5,8 +5,8 @@ from setuptools import setup, find_packages
 
 setup(
     name='Control_DB_date',
-    version='2.0.0',
-    author='rfyiamcool',
+    version='3.0.0',
+    author='ruifengyun',
     author_email='rfyiamcool@163.com',
     packages=find_packages(),
     url='https://github.com/rfyiamcool',
