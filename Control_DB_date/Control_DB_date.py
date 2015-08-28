@@ -59,4 +59,6 @@ class Match_db_date(object):
                     dc[self.fit_date_format(year,month)] = ["%s-%s-01"%(year,month),"%s-%s-%s"%(year,month,getMonthDays(year,month))]
     
         return dc
-    
+
+if __name__ == "__main__":
+    pass
